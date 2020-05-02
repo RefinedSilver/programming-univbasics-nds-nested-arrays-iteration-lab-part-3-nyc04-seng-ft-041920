@@ -17,5 +17,6 @@ def join_nested_strings(src)
   	row_index += 1
   end
   array_results << total
+  array_results
 end
 join_nested_strings(src)
