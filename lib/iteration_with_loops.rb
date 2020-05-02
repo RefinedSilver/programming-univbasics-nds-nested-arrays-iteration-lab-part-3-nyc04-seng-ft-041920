@@ -2,7 +2,7 @@ def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
   array_results = []
-  total = " "
+  total = ""
   row_index = 0
 
   while row_index < src.count do
@@ -15,5 +15,5 @@ def join_nested_strings(src)
   	end
   	row_index += 1
   end
-  array_results << total
+  array_results << total.join" "
 end
