@@ -18,3 +18,4 @@ def join_nested_strings(src)
   end
   array_results << total
 end
+join_nested_strings(src)
